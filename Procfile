@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/jshop" config.wsgi:application
